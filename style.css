@@ -1,0 +1,45 @@
+  .imagediv {
+    float: left;
+    width: 33%;
+    height: 300px;
+    text-align: center;
+  }
+
+  .row {
+    padding: 0;
+    margin; 10 auto;
+  }
+
+.row:after {
+  clear:both;
+  display:block;
+  content: " ";
+}
+
+  #wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #mapid {
+    height: 180px;
+  }
+
+  #navbar {
+    position: fixed;
+    background-color: #222222;
+    color: #FFFFFF;
+    width: 100%;
+    border-radius: 3px;
+  }
+
+  #absdiv {
+    position: absolute;
+    right: 0;
+    top 0;
+  }
+
+  #navbar-text {
+    margin: auto;
+    text-align: center;
+  }
